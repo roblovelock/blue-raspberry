@@ -65,13 +65,14 @@ const Skills: FC<SkillsProps> = ({tabs}) => {
     return (<>
         <ul className='flex items-center'>
             {tabs.map(t => (
-                <li key={t.tab} className={tab === t.tab ? 'font-bold text-[#35c0ed] bg-gray-700 py-4 text-xs md:text-lg' : 'bg-gray-800 py-4 text-xs md:text-base'}
+                <li key={t.tab}
+                    className={tab === t.tab ? 'font-bold text-[#35c0ed] bg-gray-700 py-4 text-xs md:text-lg' : 'bg-gray-800 py-4 text-xs md:text-base'}
                     onClick={() => setTab(t.tab)}>{t.tab}</li>))}
         </ul>
 
         {tabs.map(t => (
             <div key={t.tab}
-                className={tab === t.tab ? 'w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8 px-4 bg-gray-700' : 'hidden'}>
+                 className={tab === t.tab ? 'w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8 px-4 bg-gray-700' : 'hidden'}>
                 {t.skills.map((s, i) => <Skill key={i} {...s}/>)}
             </div>))}
 
@@ -81,8 +82,9 @@ const Skills: FC<SkillsProps> = ({tabs}) => {
 const Expertise = () => {
 
     return (
-        <div id='expertise' className='bg-[#0a192f] w-full height-auto min-h-screen sm:h-screen text-gray-300 pt-[80px]'>
-            <div className='max-w-[950px] mx-auto px-8 flex flex-col justify-center h-full'>
+        <div id='expertise'
+             className='bg-[#0a192f] w-full height-auto min-h-screen sm:h-screen text-gray-300 pt-[80px]'>
+            <div className='max-w-[950px] mx-auto px-8 pb-4 flex flex-col justify-center h-full'>
                 <div>
                     <p className='text-4xl font-bold border-b-4 border-[#35c0ed] inline'>Expertise</p>
                     <p className='py-4'>Experienced in the following technologies...</p>
@@ -102,7 +104,7 @@ const Expertise = () => {
                     {
                         tab: Tab.DATA,
                         skills: [{icon: MongoDBLogo}, {icon: PostgresqlLogo}, {icon: ElasticsearchLogo},
-                            {icon: CassandraLogo}, {icon: RabbitMQLogo}, {icon: KafkaLogo}, {icon: FirebaseLogo},
+                            {icon: CassandraLogo}, {icon: FirebaseLogo}, {icon: RabbitMQLogo}, {icon: KafkaLogo},
                             {icon: GRPCLogo}]
                     },
                     {

@@ -6,10 +6,10 @@ const Home = () => {
     return (
         <div id='home' className='bg-[#0a192f] w-full h-screen pt-[80px]'>
             <div className='max-w-[950px] mx-auto px-8 flex flex-col justify-center h-full'>
-                <p className='text-gray-300'>We are</p>
+                <p className='text-gray-500'>We are</p>
                 <h1 className='text-[#35c0ed] text-4xl sm:text-6xl font-bold'>Blue Raspberry Consulting</h1>
-                <h2 className='text-gray-500 text-2xl sm:text-3xl font-bold'>Providing professional software development
-                    services</h2>
+                <h2 className='text-gray-500 text-2xl sm:text-3xl font-bold'>Providing professional software
+                    development contracts</h2>
                 <p className='text-gray-500 py-4 max-w-[700px]'>
                     Highly experienced principal engineer/tech lead with over fifteen years building high available,
                     distributed application architectures.
