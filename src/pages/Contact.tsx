@@ -8,7 +8,7 @@ const Contact = () => {
                   className='flex flex-col max-w-[600px] w-full'>
                 <div className='pb-8'>
                     <p className='text-4xl font-bold inline border-b-4 border-[#35c0ed] '>Contact</p>
-                    <p className='py-4'>Request more information about the services we offer...</p>
+                    <p className='py-4'>Request more information about our services.</p>
                 </div>
                 <input className='bg-gray-200 p-2 text-gray-700' type='text' placeholder='Name' name='name'
                        required={true}/>

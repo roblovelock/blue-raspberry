@@ -12,8 +12,9 @@ const About = () => {
                 <div className='max-w-[950px] w-full px-4 grid md:grid-cols-3 gap-8'>
                     <div className='md:text-right text-2xl font-bold'>
                         <p>
-                            Have a wealth of experience across the software development lifecycle. Specialising in Golang and Java development, but
-                            consider myself a polyglot, and am expert in a wide range of languages and technologies.
+                            Specialising in Golang and Java development, but consider myself a polyglot, I am expert in
+                            a wide range of languages and technologies with a wealth of experience across the software
+                            development lifecycle.
                         </p>
                     </div>
                     <div className='md:col-span-2'>
