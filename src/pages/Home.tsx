@@ -11,7 +11,7 @@ const Home = () => {
                 <h2 className='text-gray-500 text-2xl sm:text-3xl font-bold'>Providing professional software
                     development contracts</h2>
                 <p className='text-gray-500 py-4 max-w-[700px]'>
-                    Highly experienced principal engineer/tech lead with over fifteen years building high available,
+                    Highly experienced principal engineer/tech lead with over fifteen years building high availability,
                     distributed application architectures.
                     Accomplished at leading a team of developers ensuring the best coding practices are followed.
                 </p>
